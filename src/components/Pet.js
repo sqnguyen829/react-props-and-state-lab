@@ -1,14 +1,9 @@
 import React from 'react'
 
 class Pet extends React.Component {
-  // state={
-  //   pet:this.props.pet
-  // }
-
-  
   render() {
     const pet = this.props.pet
-    console.log('test')
+    // console.log(pet)
     return (
       <div className="card">
         <div className="content">
